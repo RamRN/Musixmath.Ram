@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    font-size: 20px;   
+}
+button
+{
+    background-color:white;
+    border: 10;
+    padding: 20px;
+    border-radius: 15px;
+}
+button:hover
+{
+    background-color: black;
+    color: white;
+    text-decoration:underline
+}
+nav li:hover{
+    text-decoration: underline;
+        color:red
+}
+.sec-1
+{
+    background-color:black;
+    box-shadow: 1px 6px 11px 25px rgba(176,194,194,0.29);
+    -webkit-box-shadow: 1px 6px 11px 25px rgba(176,194,194,0.29);
+    -moz-box-shadow: 1px 6px 11px 25px rgba(176,194,194,0.29);
+     margin-top: 100px;
+     justify-content: space-between;
+}
+.sec-1 h1{
+    font-size:90px;
+    margin-left: 100px;
+}
+.subsec-1,.subsec-2,.subsec-3,.subsec-4
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.subsec-1 ul li,.subsec-2 ul li,.subsec-3 ul li,.subsec-4 ul li
+{
+  list-style: none;
+}  
+.main-sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-2
+{
+    display: flex;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 150px;
+}    
+.sec-3
+{
+    display: flex;
+    position: absolute;
+    margin-left: 165px;
+    margin-top: 700px;
+    padding: 30px;
+    justify-content:space-between;
+}
+.sec-3 img{
+    margin: 20px;
+}
+.sec-4 
+{
+    display: flex;
+    position: absolute;
+    margin-left: 700px;
+    margin-top:1100px;
+    padding: 30px;
+    justify-content:space-between;
+}
+.sec-5 h3
+{
+    display: flex;
+    position: absolute;
+    margin-top: 1250px;
+    margin-left: 200px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec-6
+{
+    display:flex;
+    margin-left: 400px;
+    margin-top: 1350px;
+}
+.sec-6 img
+{
+    margin: 20px;
+}
+.sec-7
+{
+    display: flex;
+    margin-left: 440px;
+}
